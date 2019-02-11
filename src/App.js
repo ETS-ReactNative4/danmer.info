@@ -58,10 +58,10 @@ class App extends Component {
           <a className="linkStyle" href="https://open.spotify.com/user/1225094990?si=dUsS2C8US6yv8jI9cTJCRQ"> spotify</a>
         
           <h2 className="techHeaders">Languages</h2>
-          <span>Python, C, Java</span>
+          <span>Go, Python, C, Java</span>
 
           <h2 className="techHeaders">Technologies</h2>
-          <span>AWS, Linux, React</span>
+          <span>AWS, Linux, React, Vagrant</span>
 
           <h2 className="techHeaders">Tools</h2>
           <span>Docker, Git, CloudFormation</span>
