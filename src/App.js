@@ -47,7 +47,7 @@ class App extends Component {
           <h1>me llamo dan</h1>
           <p>and this is diners, drive-ins, and dives</p>
 
-          <p>I'm currently a junior at the University of Central Florida (go knights!) studying IT with a minor in Secure Computing and Networks.</p>
+          <p>I'm currently a senior at the University of Central Florida (go knights!) studying IT with a minor in Secure Computing and Networks.</p>
           <p>Outside of DevOps and Cloud, my interests include competitive Super Smash Bros., music, and basketball.</p>
 
           <span>socials: </span>
