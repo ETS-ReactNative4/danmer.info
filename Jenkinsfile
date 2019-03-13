@@ -2,6 +2,7 @@ pipeline {
   agent {
 	docker { 
 		image 'node:lts-alpine"
+		args '-p 20001-20100:3000'
 	}
   }
 
@@ -13,8 +14,10 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        s3Delete(path: '**/*', bucket: 'danmer.info')
-        s3Upload(bucket: 'danmer.info', path: '**/*', workingDir: 'build')
+		withAWS(region:'us-east-1a', credentials:'Jenkins') {
+        	s3Delete(path: '**/*', bucket: 'danmer.info')
+        	s3Upload(bucket: 'danmer.info', path: '**/*', workingDir: 'build')
+		}
       }
     }
   }
