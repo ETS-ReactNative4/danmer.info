@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -52,7 +51,7 @@ class App extends Component {
 
           <span>socials: </span>
 
-          <a className="linkStyle" href="https://www.linkedin.com/in/danthemanmerino/">linkedin</a> - 
+          <a className="linkStyle" href="https://www.linkedin.com/in/slaminad/">linkedin</a> - 
           <a className="linkStyle" href="https://github.com/slaminad"> github</a> - 
           <a className="linkStyle" href="https://twitter.com/slaminad"> twitter</a> - 
           <a className="linkStyle" href="https://open.spotify.com/user/1225094990?si=dUsS2C8US6yv8jI9cTJCRQ"> spotify</a>
