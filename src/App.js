@@ -43,11 +43,14 @@ class App extends Component {
         {/* Content */}
         <div className="App-content">
 
-          <h1>me llamo dan</h1>
-          <p>and this is diners, drive-ins, and dives</p>
+          <h1>yeah, like the football player</h1>
 
-          <p>I'm currently a senior at the University of Central Florida (go knights!) studying IT with a minor in Secure Computing and Networks.</p>
-          <p>Outside of DevOps and Cloud, my interests include competitive Super Smash Bros., music, and basketball.</p>
+          <p>I'm currently a senior at the University of Central Florida (go knights!) studying IT with a minor in Secure Computing and Networks. </p>
+          <p>  
+            My particular interests include: programming, distributed systems, automation, operating systems, sysadmin, and cloud.
+            I also really enjoy writing interesting things in Go and anything Linux.
+          </p>
+          <p>Outside of SRE-y and DevOps-y things, my hobbies include competitive Super Smash Bros., music, and basketball.</p>
 
           <span>socials: </span>
 
